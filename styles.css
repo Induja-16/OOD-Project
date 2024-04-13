@@ -234,3 +234,36 @@ footer {
     margin-top: 0;
     text-align: center;
 }
+/* Your existing styles */
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+    text-decoration: none;
+    color: #333;
+}
+
+.card:hover {
+    background-color: #e0e0e0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
